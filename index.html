@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap">
+</head>
+
+<body>
+    <div id="search-bar">
+        <form id="weather-form">
+            <input type="text" id="city-input" placeholder="Enter city">
+            <button type="button" onclick="getWeather()">Search</button>
+        </form>
+    </div>
+
+    <div class="weather-info">
+        <p>Todays Weather Info</p>
+        <p id="current-day"></p>
+        <p id="current-date"></p>
+        <p id="temperature"></p>
+        <p id="precipitation"></p>
+        <p id="humidity"></p>
+        <p id="wind-speed"></p>
+    </div>
+
+    <div id="city-coun">
+        <p id="city-country"></p>
+        <p id="latitude-longitude"></p>
+    </div>
+
+    <div class="forecast-cards" id="forecast-cards">
+        <div class="card">
+            <p>Mon</p>
+            <p>12/05</p>
+            <img src="https://openweathermap.org/img/w/01d.png" alt="Clear">
+            <p>25.5°C / 77.9°F</p>
+        </div>
+        <div class="card">
+            <p>Mon</p>
+            <p>12/05</p>
+            <img src="https://openweathermap.org/img/w/01d.png" alt="Clear">
+            <p>25.5°C / 77.9°F</p>
+        </div>
+        <div class="card">
+            <p>Mon</p>
+            <p>12/05</p>
+            <img src="https://openweathermap.org/img/w/01d.png" alt="Clear">
+            <p>25.5°C / 77.9°F</p>
+        </div>
+        <div class="card">
+            <p>Mon</p>
+            <p>12/05</p>
+            <img src="https://openweathermap.org/img/w/01d.png" alt="Clear">
+            <p>25.5°C / 77.9°F</p>
+        </div>
+        <div class="card">
+            <p>Mon</p>
+            <p>12/05</p>
+            <img src="https://openweathermap.org/img/w/01d.png" alt="Clear">
+            <p>25.5°C / 77.9°F</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
